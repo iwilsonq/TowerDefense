@@ -7,16 +7,20 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>44C83A86-62CB-47C2-B2E9-CF875B132B50</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>TowerDefense</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>BD43E13828EA8DC09527BF2FBA5EAC8C6FDD6D0B</key>
+		<string>https://github.com/Krozark/SFML-utils.git</string>
 		<key>C4CA410555FF3E852056A5D5E7D3D944981C81C3</key>
 		<string>https://github.com/nadajackal/TowerDefense.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TowerDefense/TowerDefense.xcodeproj/project.xcworkspace</string>
+	<string>TowerDefense/TowerDefense.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>BD43E13828EA8DC09527BF2FBA5EAC8C6FDD6D0B</key>
+		<string>../../../TowerDefense/SFML-utils</string>
 		<key>C4CA410555FF3E852056A5D5E7D3D944981C81C3</key>
 		<string>../../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>C4CA410555FF3E852056A5D5E7D3D944981C81C3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BD43E13828EA8DC09527BF2FBA5EAC8C6FDD6D0B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SFML-utils</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

@@ -7,27 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D3BD2CA1C4AFE1400FD2065 /* ActionTarget.tpl in Resources */ = {isa = PBXBuildFile; fileRef = 2D3BD2C71C4AFE1400FD2065 /* ActionTarget.tpl */; };
-		2D3BD2CB1C4AFE1400FD2065 /* ResourceManager.tpl in Resources */ = {isa = PBXBuildFile; fileRef = 2D3BD2C91C4AFE1400FD2065 /* ResourceManager.tpl */; };
-		2D3BD2CE1C4AFF7F00FD2065 /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D3BD2CC1C4AFF7F00FD2065 /* Animation.cpp */; };
-		2D3BD2D01C4B054400FD2065 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D3BD2CF1C4B054400FD2065 /* main.cpp */; };
-		2D3BD2D31C4B059100FD2065 /* AnimatedSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D3BD2D11C4B059100FD2065 /* AnimatedSprite.cpp */; };
-		2D3BD2D51C4B121E00FD2065 /* media in Resources */ = {isa = PBXBuildFile; fileRef = 2D3BD2D41C4B121E00FD2065 /* media */; };
+		2DE678A21C5B47F8004F7EA1 /* utils in Resources */ = {isa = PBXBuildFile; fileRef = 2DE678A11C5B47F8004F7EA1 /* utils */; };
+		2DE678A41C5B4ABD004F7EA1 /* SFML-Book in Resources */ = {isa = PBXBuildFile; fileRef = 2DE678A31C5B4ABD004F7EA1 /* SFML-Book */; };
+		2DE678A61C5B4AEB004F7EA1 /* media in Resources */ = {isa = PBXBuildFile; fileRef = 2DE678A51C5B4AEB004F7EA1 /* media */; };
+		2DFB92301C534C4D0021FBA6 /* SFML-utils in Resources */ = {isa = PBXBuildFile; fileRef = 2DFB922F1C534C4D0021FBA6 /* SFML-utils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D3BD2AE1C4AFDCD00FD2065 /* TowerDefense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerDefense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3BD2B21C4AFDCD00FD2065 /* TowerDefense-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TowerDefense-Info.plist"; sourceTree = "<group>"; };
-		2D3BD2C61C4AFE1400FD2065 /* ActionTarget.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ActionTarget.hpp; sourceTree = "<group>"; };
-		2D3BD2C71C4AFE1400FD2065 /* ActionTarget.tpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ActionTarget.tpl; sourceTree = "<group>"; };
-		2D3BD2C81C4AFE1400FD2065 /* ResourceManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourceManager.hpp; sourceTree = "<group>"; };
-		2D3BD2C91C4AFE1400FD2065 /* ResourceManager.tpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ResourceManager.tpl; sourceTree = "<group>"; };
-		2D3BD2CC1C4AFF7F00FD2065 /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
-		2D3BD2CD1C4AFF7F00FD2065 /* Animation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Animation.hpp; sourceTree = "<group>"; };
-		2D3BD2CF1C4B054400FD2065 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2D3BD2D11C4B059100FD2065 /* AnimatedSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimatedSprite.cpp; sourceTree = "<group>"; };
-		2D3BD2D21C4B059100FD2065 /* AnimatedSprite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AnimatedSprite.hpp; sourceTree = "<group>"; };
-		2D3BD2D41C4B121E00FD2065 /* media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = media; sourceTree = "<group>"; };
+		2DE678A11C5B47F8004F7EA1 /* utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = utils; sourceTree = "<group>"; };
+		2DE678A31C5B4ABD004F7EA1 /* SFML-Book */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SFML-Book"; sourceTree = "<group>"; };
+		2DE678A51C5B4AEB004F7EA1 /* media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = media; sourceTree = "<group>"; };
+		2DFB922F1C534C4D0021FBA6 /* SFML-utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SFML-utils"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +52,9 @@
 		2D3BD2B01C4AFDCD00FD2065 /* TowerDefense */ = {
 			isa = PBXGroup;
 			children = (
-				2D3BD2C61C4AFE1400FD2065 /* ActionTarget.hpp */,
-				2D3BD2C71C4AFE1400FD2065 /* ActionTarget.tpl */,
-				2D3BD2C81C4AFE1400FD2065 /* ResourceManager.hpp */,
-				2D3BD2C91C4AFE1400FD2065 /* ResourceManager.tpl */,
-				2D3BD2CC1C4AFF7F00FD2065 /* Animation.cpp */,
-				2D3BD2CD1C4AFF7F00FD2065 /* Animation.hpp */,
-				2D3BD2CF1C4B054400FD2065 /* main.cpp */,
-				2D3BD2D11C4B059100FD2065 /* AnimatedSprite.cpp */,
-				2D3BD2D21C4B059100FD2065 /* AnimatedSprite.hpp */,
+				2DE678A31C5B4ABD004F7EA1 /* SFML-Book */,
+				2DE678A11C5B47F8004F7EA1 /* utils */,
+				2DFB922F1C534C4D0021FBA6 /* SFML-utils */,
 				2D3BD2B81C4AFDCD00FD2065 /* Resources */,
 				2D3BD2B11C4AFDCD00FD2065 /* Supporting Files */,
 			);
@@ -86,7 +72,7 @@
 		2D3BD2B81C4AFDCD00FD2065 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2D3BD2D41C4B121E00FD2065 /* media */,
+				2DE678A51C5B4AEB004F7EA1 /* media */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -148,9 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D3BD2D51C4B121E00FD2065 /* media in Resources */,
-				2D3BD2CB1C4AFE1400FD2065 /* ResourceManager.tpl in Resources */,
-				2D3BD2CA1C4AFE1400FD2065 /* ActionTarget.tpl in Resources */,
+				2DE678A21C5B47F8004F7EA1 /* utils in Resources */,
+				2DE678A61C5B4AEB004F7EA1 /* media in Resources */,
+				2DFB92301C534C4D0021FBA6 /* SFML-utils in Resources */,
+				2DE678A41C5B4ABD004F7EA1 /* SFML-Book in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,9 +164,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D3BD2D01C4B054400FD2065 /* main.cpp in Sources */,
-				2D3BD2D31C4B059100FD2065 /* AnimatedSprite.cpp in Sources */,
-				2D3BD2CE1C4AFF7F00FD2065 /* Animation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +267,11 @@
 		2D3BD2C41C4AFDCD00FD2065 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					/Users/jillwilson/Documents/TowerDefense/TowerDefense/TowerDefense/TowerDefense/,
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "TowerDefense/TowerDefense-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +281,11 @@
 		2D3BD2C51C4AFDCD00FD2065 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					/Users/jillwilson/Documents/TowerDefense/TowerDefense/TowerDefense/TowerDefense/,
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "TowerDefense/TowerDefense-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -317,6 +311,7 @@
 				2D3BD2C51C4AFDCD00FD2065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
